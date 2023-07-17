@@ -1,0 +1,7 @@
+.filter_input{
+    display: flex;
+    padding: 5px 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
