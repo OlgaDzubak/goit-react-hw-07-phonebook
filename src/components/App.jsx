@@ -17,7 +17,6 @@ export const App = () => {
         dispatch(fetchContacts());
     },[dispatch])
 
-    console.log("error=",error);
     return  <section className='section'>
 
                 <div className='app_div'>
