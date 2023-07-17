@@ -1,7 +1,7 @@
 .section {
     padding-top: 30px;
     padding-bottom: 30px;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 .app_div {
     padding: 40px 40px;
@@ -12,6 +12,7 @@
     background-color:lightblue;
     border: 1px solid grey;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.35);
+    overflow-y: hidden;
 }
 h1 {
     margin-top: 0;
