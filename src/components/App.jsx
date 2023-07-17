@@ -27,11 +27,11 @@ export const App = () => {
                     <h2>Contacts</h2>
                     <Filter/>
 
-                    {!error && <ContactList />}
-
                     {isLoading && !error && <b>Request in progress...</b>}
 
                     {error && <b>Opps! Something went wrong! Try reloading the page!</b>}
+                    
+                    {!error && <ContactList />}
 
                 </div>
 
